@@ -73,7 +73,7 @@ initHardware: {
 
 
 * = * "graphics routine code"
-#import "./graphicsRoutines.asm"
+#import "./lib/graphicsRoutines.asm"
 
 * = * "map data"
 gameMap: 

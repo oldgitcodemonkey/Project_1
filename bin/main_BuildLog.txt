@@ -3,7 +3,7 @@ flex pass 1
 flex pass 2
 flex pass 3
 Output pass
-Writing prg file: /Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/bin/main.prg
+Writing prg file: /Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/Project_1/bin/main.prg
 
 Memory Map
 ----------
@@ -21,5 +21,5 @@ Default-segment:
   $11e1-$1200 Colour attributes
   $f000-$f0ff character sets
 
-Writing Vice symbol file: /Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/bin/main.vs
+Writing Vice symbol file: /Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/Project_1/bin/main.vs
 Writing Symbol file: main.sym

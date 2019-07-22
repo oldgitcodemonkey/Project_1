@@ -35,10 +35,35 @@ Loading system file `/usr/local/Cellar/vice/3.3_2/lib/vice/DRIVES/dos1001'.
 Drive: Finished loading ROM images.
 Sound: Available sound devices: coreaudio sdl dummy fs dump wav voc iff aiff mp3 flac ogg soundmovie
 SDLJoystick: 1 joysticks found
-SDLJoystick: Device 0 "8Bitdo SFC30 GamePad" (6 axes, 16 buttons, 1 hats, 0 balls)
-SDLJoystick: Warning - Axis 4 exceeds threshold, mapping to NONE
-SDLJoystick: Warning - Axis 5 exceeds threshold, mapping to NONE
+SDLJoystick: Device 0 "Retro Joystick Adapter v3.0" (2 axes, 3 buttons, 0 hats, 0 balls)
+SDLJoystick: Warning - Axis 0 exceeds threshold, mapping to NONE
+SDLJoystick: Warning - Axis 1 exceeds threshold, mapping to NONE
 SDLJoystick: Loading joystick map `/Users/andrew/.config/vice/sdl-joymap-C64.vjm'.
+SDLJoystick: Warning - inputindex 4 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 5 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 6 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 7 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 8 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 9 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 10 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 11 too large for inputtype 0, joynum 0!
+SDLJoystick: Warning - inputindex 3 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 4 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 5 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 6 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 7 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 8 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 9 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 10 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 11 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 12 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 13 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 14 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 15 too large for inputtype 1, joynum 0!
+SDLJoystick: Warning - inputindex 0 too large for inputtype 2, joynum 0!
+SDLJoystick: Warning - inputindex 1 too large for inputtype 2, joynum 0!
+SDLJoystick: Warning - inputindex 2 too large for inputtype 2, joynum 0!
+SDLJoystick: Warning - inputindex 3 too large for inputtype 2, joynum 0!
 SDLKeyboard: Loading hotkey map `/usr/local/Cellar/vice/3.3_2/lib/vice/C64/sdl_hotkeys.vkm'.
 SDLKeyboard: Warning - Failed to open `/Users/andrew/.config/vice/sdl-hotkey-C64.vkm'.
 Keyboard: Loading keymap `/usr/local/Cellar/vice/3.3_2/lib/vice/C64/sdl_sym.vkm'.
@@ -51,7 +76,7 @@ Filesystem Image Probe: Error - Import GCR: Unknown GCR image version 48.
 Filesystem Image: Unknown disk image `bin/main.prg'.
 Tape: Error - Cannot open file `bin/main.prg'
 Error - CRT header invalid.
-CART: '/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/bin/main.prg' is not a valid CRT file.
+CART: '/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/Project_1/bin/main.prg' is not a valid CRT file.
 AUTOSTART: Loading PRG file `bin/main.prg' with direct RAM injection.
 AUTOSTART: Resetting the machine to autostart '*'
 Drive 8: RESET.
@@ -71,40 +96,6 @@ AUTOSTART: Ready
 AUTOSTART: Turning Warp mode off
 AUTOSTART: Starting program.
 AUTOSTART: Done.
-AUTOSTART: Autodetecting image type of `/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/shallan project/1 screen shooter/Cosmic Cruiser.d64'.
-AUTOSTART: Attached file `/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/shallan project/1 screen shooter/Cosmic Cruiser.d64' as a disk image.
-AUTOSTART: Resetting the machine to autostart '*'
-AUTOSTART: Turning Warp mode on
-AUTOSTART: `/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/shallan project/1 screen shooter/Cosmic Cruiser.d64' recognized as disk image.
-Main CPU: RESET.
-Drive 8: RESET.
-AUTOSTART: Loading program '*'
-AUTOSTART: Entered ROM at $e5cf
-AUTOSTART: Searching for ...
-AUTOSTART: Loading
-AUTOSTART: Entered ROM at $ee85
-AUTOSTART: Ready
-AUTOSTART: Turning Warp mode off
-AUTOSTART: Starting program.
-AUTOSTART: Done.
-AUTOSTART: Autodetecting image type of `/Users/andrew/Desktop/doccosmos.d64'.
-AUTOSTART: Attached file `/Users/andrew/Desktop/doccosmos.d64' as a disk image.
-AUTOSTART: Resetting the machine to autostart '*'
-AUTOSTART: Turning Warp mode on
-AUTOSTART: `/Users/andrew/Desktop/doccosmos.d64' recognized as disk image.
-Main CPU: RESET.
-Drive 8: RESET.
-AUTOSTART: Loading program '*'
-AUTOSTART: Searching for ...
-AUTOSTART: Loading
-AUTOSTART: Entered ROM at $ee63
-AUTOSTART: Ready
-AUTOSTART: Turning Warp mode off
-AUTOSTART: Starting program.
-AUTOSTART: Done.
-Sound: Warning - Buffer drained
-Sound: Warning - Buffer drained
-Sound: Warning - Buffer drained
 Writing configuration file `/Users/andrew/.config/vice/sdl-vicerc'.
 
 Exiting...

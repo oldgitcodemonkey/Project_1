@@ -3,18 +3,22 @@
 	{
 		"selected_items":
 		[
+			[
+				"sc",
+				"screenRAM"
+			],
+			[
+				"tile",
+				"tileOffset"
+			],
+			[
+				"map",
+				"mapOffset"
+			]
 		]
 	},
 	"buffers":
 	[
-		{
-			"file": "main.asm",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -128,8 +132,17 @@
 	},
 	"file_history":
 	[
-		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/main.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/lib/gameMemory.asm",
 		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/lib/zeroPage.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/lib/lookupTables.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/main.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/lib/multiplexSprites.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/graphicsRoutines.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/lookupTables.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/graphicsRouting.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/gameMemory.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/SpaceFighter/constants.asm",
+		"/Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/SpaceFighter/gameMemory.asm",
 		"/Users/andrew/Library/Application Support/Sublime Text 3/Packages/SublimeKickAssemblerC64/README.md",
 		"/Users/andrew/Library/Application Support/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
 		"/Users/andrew/Library/Application Support/Sublime Text 3/Packages/User/Package Control.sublime-settings",
@@ -137,7 +150,7 @@
 	],
 	"find":
 	{
-		"height": 37.0
+		"height": 49.0
 	},
 	"find_in_files":
 	{
@@ -168,37 +181,8 @@
 	"groups":
 	[
 		{
-			"selected": 0,
 			"sheets":
 			[
-				{
-					"buffer": 0,
-					"file": "main.asm",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/KickAssembler (C64)/Syntaxes/KickAssembler (C64).tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				}
 			]
 		}
 	],
@@ -245,7 +229,7 @@
 	"project": "chinnyvision.sublime-project",
 	"replace":
 	{
-		"height": 70.0
+		"height": 90.0
 	},
 	"save_all_on_build": true,
 	"select_file":
