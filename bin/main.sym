@@ -1,0 +1,57 @@
+.label main=$1000 {
+}
+.label graphics=$1044 {
+  .label breakChar=$10e9 {
+    .label top=$10e9
+  }
+  .label cls=$1044 {
+  }
+  .label drawScreen=$1056 {
+    .label startOfMap=$c
+    .label currentCol=$3
+    .label currentTile=$6
+    .label temp=$7
+    .label mapOffset=$4
+    .label currentRow=$2
+    .label charLoop=$1091
+    .label screenPointer=$e
+    .label tileOffset=$5
+    .label colourPointer=$12
+    .label colLoop=$1085
+    .label rowLoop=$1081
+  }
+}
+.label initHardware=$101e {
+}
+.label tables=$820 {
+  .label tilePosition=$848
+  .label screenMapOffSet=$820
+}
+.label charSet=$f000
+.label zeroPage=$2 {
+  .label currentScreen=$21
+  .label lives=$20
+  .label dTemp3=$12
+  .label dTemp2=$10
+  .label dTemp1=$e
+  .label dTemp0=$c
+  .label temp2=$4
+  .label dTemp7=$1a
+  .label temp3=$5
+  .label dTemp6=$18
+  .label temp0=$2
+  .label dTemp5=$16
+  .label temp1=$3
+  .label dTemp4=$14
+  .label temp6=$8
+  .label temp7=$9
+  .label temp4=$6
+  .label dTemp9=$1e
+  .label temp5=$7
+  .label dTemp8=$1c
+  .label temp8=$a
+  .label temp9=$b
+}
+.label gameTiles=$11c1
+.label gameMap=$10f9
+.label charAtt=$11e1

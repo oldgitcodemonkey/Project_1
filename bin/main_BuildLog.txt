@@ -1,0 +1,25 @@
+parsing
+flex pass 1
+flex pass 2
+flex pass 3
+Output pass
+Writing prg file: /Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/bin/main.prg
+
+Memory Map
+----------
+Default-segment:
+  *$0002-$0021 zero page
+  $0801-$080c Basic
+  $080e-$080d Basic End
+  $0820-$084b Golbal Tables
+  $1000-$1043 main start
+  $1044-$1043 graphics routine code
+  $1044-$1055 cleat screen code
+  $1056-$10f8 screen draw code
+  $10f9-$11c0 map data
+  $11c1-$11e0 Tile data
+  $11e1-$1200 Colour attributes
+  $f000-$f0ff character sets
+
+Writing Vice symbol file: /Users/andrew/Library/Mobile Documents/com~apple~CloudDocs/Commodore 64 projects/ChinnyVision/bin/main.vs
+Writing Symbol file: main.sym
