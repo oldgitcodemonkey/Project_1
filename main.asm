@@ -1,6 +1,6 @@
 //
 //
-// main code file for Chinny Vision
+// main code file for test code
 //
 //
 
